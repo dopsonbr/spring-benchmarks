@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/item"
+  },
+  "response": {
+    "status": 200,
+    "body": "foo",
+    "delayDistribution": {
+      "type": "lognormal",
+      "median": 100,
+      "sigma": 0.1
+    }
+  }
+}

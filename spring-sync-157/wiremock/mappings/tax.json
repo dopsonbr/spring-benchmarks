@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/tax"
+  },
+  "response": {
+    "status": 200,
+    "body": "bar",
+    "delayDistribution": {
+      "type": "lognormal",
+      "median": 100,
+      "sigma": 0.1
+    }
+  }
+}

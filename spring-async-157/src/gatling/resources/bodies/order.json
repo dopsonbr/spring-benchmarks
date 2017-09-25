@@ -1,0 +1,219 @@
+{
+  "kind": "content#order",
+  "id": "TEST-8147-31-0670",
+  "merchantId": "9999",
+  "channelType": "purchasesOnGoogle",
+  "lineItems": [
+    {
+      "id": "2OHODSYAUJCZEYE",
+      "quantityOrdered": 2,
+      "quantityPending": 2,
+      "quantityShipped": 0,
+      "quantityDelivered": 0,
+      "quantityReturned": 0,
+      "quantityCanceled": 0,
+      "price": {
+        "value": "140.00",
+        "currency": "USD"
+      },
+      "tax": {
+        "value": "14.00",
+        "currency": "USD"
+      },
+      "shippingDetails": {
+        "method": {
+          "methodName": "Ground",
+          "carrier": "UPS",
+          "minDaysInTransit": 1,
+          "maxDaysInTransit": 5
+        },
+        "shipByDate": "2017-09-15T19:43:11Z",
+        "deliverByDate": "2017-09-18T19:43:11Z"
+      },
+      "returnInfo": {
+        "isReturnable": true,
+        "daysToReturn": 15,
+        "policyUrl": "https://support.google.com/store/answer/2411741"
+      },
+      "product": {
+        "id": "online:en:US:d3k3245",
+        "offerId": "d3k3245",
+        "targetCountry": "US",
+        "channel": "online",
+        "contentLanguage": "en",
+        "price": {
+          "value": "70.00",
+          "currency": "USD"
+        },
+        "title": "Google Chromecast",
+        "gtin": "00811571013579",
+        "brand": "Google",
+        "mpn": "H2G2-42",
+        "condition": "new",
+        "imageLink": "http://store.google.com/chromecast.png",
+        "shownImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQnZBrlSh95-rIdAJzKvRPN_fuC458GF5-A4VwZ6ibvjDsPWzlmOew3Zq9Mnyc&usqp=CAk"
+      }
+    },
+    {
+      "id": "2WGODSYAUJCZEYE",
+      "quantityOrdered": 1,
+      "quantityPending": 1,
+      "quantityShipped": 0,
+      "quantityDelivered": 0,
+      "quantityReturned": 0,
+      "quantityCanceled": 0,
+      "price": {
+        "value": "399.85",
+        "currency": "USD"
+      },
+      "tax": {
+        "value": "39.85",
+        "currency": "USD"
+      },
+      "shippingDetails": {
+        "method": {
+          "methodName": "Standard",
+          "carrier": "FedEx",
+          "minDaysInTransit": 3,
+          "maxDaysInTransit": 6
+        },
+        "shipByDate": "2017-09-15T19:43:11Z",
+        "deliverByDate": "2017-09-18T19:43:11Z"
+      },
+      "returnInfo": {
+        "isReturnable": true,
+        "daysToReturn": 14,
+        "policyUrl": "https://support.google.com/store/answer/2411741"
+      },
+      "product": {
+        "id": "online:en:US:df4sg53ds9",
+        "offerId": "df4sg53ds9",
+        "targetCountry": "US",
+        "channel": "online",
+        "contentLanguage": "en",
+        "price": {
+          "value": "399.85",
+          "currency": "USD"
+        },
+        "title": "Nexus 9",
+        "gtin": "00821793042684",
+        "brand": "HTC",
+        "mpn": "99HZF001-00",
+        "condition": "new",
+        "itemGroupId": "123",
+        "imageLink": "http://store.google.com/nexus9.png",
+        "shownImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQnZBrlSh95-rIdAJzKvRPN_fuC458GF5-A4VwZ6ibvjDsPWzlmOew3Zq9Mnyc&usqp=CAk",
+        "variantAttributes": [
+          {
+            "dimension": "color",
+            "value": "lunar white"
+          },
+          {
+            "dimension": "memory",
+            "value": "16 GB"
+          },
+          {
+            "dimension": "connectivity",
+            "value": "Wi-Fi only"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "pendingShipment",
+  "paymentStatus": "paymentSecured",
+  "acknowledged": false,
+  "shippingOption": "standard",
+  "placedDate": "2017-09-13T19:43:12Z",
+  "deliveryDetails": {
+    "address": {
+      "recipientName": "Jane Doe",
+      "streetAddress": [
+        "1600 Amphitheatre Parkway",
+        "Building 48 1N1C"
+      ],
+      "locality": "Mountain View",
+      "region": "CA",
+      "country": "US",
+      "postalCode": "94043",
+      "fullAddress": [
+        "Jane Doe",
+        "1600 Amphitheatre Parkway",
+        "Building 48 1N1C",
+        "Mountain View, CA 94043",
+        "United States"
+      ]
+    },
+    "phoneNumber": "+1 650-253-0000"
+  },
+  "customer": {
+    "fullName": "Jane Doe",
+    "email": "jane.doe.beesly@gmail.com",
+    "explicitMarketingPreference": false
+  },
+  "paymentMethod": {
+    "type": "AMEX",
+    "lastFourDigits": "5678",
+    "billingAddress": {
+      "recipientName": "Jim Halpert",
+      "streetAddress": [
+        "1725 Slough Avenue",
+        "",
+        ""
+      ],
+      "locality": "Scranton",
+      "region": "PA",
+      "country": "US",
+      "postalCode": "18501",
+      "fullAddress": [
+        "Jim Halpert",
+        "1725 Slough Avenue",
+        "Scranton, PA 18501",
+        "United States"
+      ]
+    },
+    "phoneNumber": "+1 999-345-6700",
+    "expirationMonth": 9,
+    "expirationYear": 2020
+  },
+  "shippingCost": {
+    "value": "21.35",
+    "currency": "USD"
+  },
+  "shippingCostTax": {
+    "value": "2.13",
+    "currency": "USD"
+  },
+  "netAmount": {
+    "value": "593.70",
+    "currency": "USD"
+  },
+  "promotions": [
+    {
+      "id": "q8fyu3",
+      "productApplicability": "allProducts",
+      "longTitle": "free shipping above 50 USD",
+      "effectiveDates": "2017-09-10T19:43:11Z/2017-09-23T19:43:11Z",
+      "redemptionChannel": "online",
+      "genericRedemptionCode": "FS502016",
+      "benefits": [
+        {
+          "offerIds": [
+            "d3k3245",
+            "df4sg53ds9"
+          ],
+          "type": "shipping",
+          "subType": "freeShipping",
+          "discount": {
+            "value": "21.35",
+            "currency": "USD"
+          },
+          "taxImpact": {
+            "value": "2.13",
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  ]
+}

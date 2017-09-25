@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+    }
+}
+plugins {
+    id 'java'
+    id 'maven'
+    id 'org.springframework.boot' version '1.5.7.RELEASE'
+    id 'com.github.lkishalmi.gatling' version '0.4.1'
+}
+
+
+group = 'com.dopsonbr.benchmark'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+wrapper {
+    gradleVersion = 4.2
+}
+
+
+dependencies {
+    compile('com.google.apis:google-api-services-content:v2-rev77-1.21.0')
+    compile('io.fastjson:boon:0.33')
+    compile('org.apache.commons:commons-lang3:3.0')
+    compile('org.apache.httpcomponents:httpclient:4.5')
+
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-web')
+
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}

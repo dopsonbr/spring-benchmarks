@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/order"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "order.json",
+    "delayDistribution": {
+      "type": "lognormal",
+      "median": 500,
+      "sigma": 0.1
+    }
+  }
+}
